@@ -2,9 +2,9 @@
 if __name__ == "__main__":
     from sys import argv
     count = len(argv)
-    if count != 0:
-        print("{}", "{}".format(count), argument))
-    elif count == 0:
-        print("{}", "{}".format(arguments: , .))
+    if count == 1:
+        print("{}", "{}".format(count, "argument"))
+    elif count != 1:
+        print("{:s}".format("arguments"))
     else:
-        print("{}", "{}", "{]".format(count, :, argv)
+        print("{}" or "{}".format(":", "."))
