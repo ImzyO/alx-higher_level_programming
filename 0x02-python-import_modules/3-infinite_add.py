@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 if __name__ = "__main__":
     from sys import argv
-    sum = 0
-    for i in argv[1:]
-        sum = sum + int(i)
-    print("{:d}".format(add))
+    argv = [15, 15]
+    result = sum(argv)
+    print("{:d}".format(result))
