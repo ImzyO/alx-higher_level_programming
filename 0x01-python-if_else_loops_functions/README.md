@@ -1,12 +1,10 @@
-0x01. Python - if/else, loops, functions
+                                                                0x01. Python - if/else, loops, functions
 
-Python programming    NB:(prefix numbers based on file...)
-
-File 0: A programm that assigns a random signed number to the variable number each time it is executed completes the source code in order to print whether the number             stored in the variable number is positive or negative.
+File 0: A programm that assigns a random signed number to the variable number each time it is executed completes the source code in order to print whether the number           stored in the variable number is positive or negative.
         
-File 1: A programm assign a random signed number to the variable number each time it is executed. Complete the source code in order to print the last digit of the number         stored in the variable number
+File 1: A programm assign a random signed number to the variable number each time it is executed. Complete the source code in order to print the last digit of the             number stored in the variable number
 
-File 2: A program that prints the ASCII alphabet, in lowercase, not followed by a new line.
+File 2: A program that prints the ASCII alphabet, in lowercase, not followed by a new line
 
 File 3: A program that prints the ASCII alphabet, in lowercase, not followed by a new line, Prints all the letters except q and e
 
@@ -28,11 +26,9 @@ File 8: A function that prints a string in uppercase followed by a new line
 File 9: A function that prints the last digit of a number
         Returns the value of the last digit
         
-File 10:  A function that adds two integers and returns the result
-          Returns the value of a + b
+File 10:  A function that adds two integers and returns the result         
           
-File 11: A function that computes a to the power of b and return the value
-          Returns the value of a ^ b
+File 11: A function that computes a to the power of b and return the value         
           
 File 12: A function that prints the numbers from 1 to 100 separated by a space
 
