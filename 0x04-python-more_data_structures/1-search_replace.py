@@ -1,5 +1,11 @@
 #!/usr/python3
 def search_replace(my_list, search, replace):
-    def element_replace_search(i):
-         return (i if i != search else replace)
-    return list(map(element_replace_search, my_list))
+     new_list = []
+     i = 1
+     for h in my_list:
+         if i== search:
+              new_list.insert(search, replace)
+         else:
+               new_list.append(h)
+               i += 1
+     return new_list
