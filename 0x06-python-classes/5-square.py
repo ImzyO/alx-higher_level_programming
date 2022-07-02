@@ -47,9 +47,8 @@ class Square:
         if self.size == 0:
             print()
         else:
-            for i in range(self.size):
                 for j in range(self.size):
                     if j == (self.size - 1):
                         print("#")
                         break
-                    print("#", end="")
+                print("#", end="")
