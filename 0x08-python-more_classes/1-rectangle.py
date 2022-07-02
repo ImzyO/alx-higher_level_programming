@@ -6,8 +6,8 @@ class Rectangle:
     """class for rectangle"""
     def __init__(self, width=0, height=0):
         """initialization necessary for objects, 3 parameters"""
-        self.width = width
-        self.height = height
+        self.__width = width
+        self.__height = height
 
     @property
     def width(self):
@@ -18,15 +18,15 @@ class Rectangle:
 
     @width.setter
     # property setter
-    def width(self, value):
+    def width(self, width):
         #width must be an integer
-        if isinstance(value, int) is False:
+        if isinstance(width, int) is False:
             # TypeError exception
             raise TypeError('width must be an integer')
         # if width is less than 0, raise a ValueError exception
-        if value < 0:
+        if width < 0:
             raise ValueError('width must be >= 0')
-        self.__width = value
+        self.__width = width
 
     @property
     def height(self):
@@ -34,19 +34,13 @@ class Rectangle:
         return self.__height
 
     @height.setter
-    def height(self, value):
-        """getter for heiight"""
-        # Private instance attribute: height:
-        return self.__height
-
-    @height.setter
     #property setter
-    def height(self, value):
+    def height(self, height):
         """setter for height of rectangle"""
         # must be an integer
-        if isinstance(value, int) is False:
+        if isinstance(height, int) is False:
             raise TypeError('height must be an integer')
         # if height is less than 0, raise a ValueError
-        if value < 0:
+        if height < 0:
             raise ValueError('height must be >= 0')
-        self.__height = value
+        self.__height = height
