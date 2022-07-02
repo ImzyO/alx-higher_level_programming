@@ -11,5 +11,4 @@ class Square:
         module __init__ for square_size, intiliazes
         """
         self.__size = size
-square = Square()
-square.size()
+        """private instance attribute size"""
