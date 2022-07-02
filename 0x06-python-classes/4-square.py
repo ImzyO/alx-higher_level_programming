@@ -19,20 +19,20 @@ class Square:
         size getter returns the private size
         """
         #return current area
-        return (self.__size)
+        return self.__size
 
     @size.setter
-    def size(self, value):
+    def get_size(self, size):
         """
         sets the size
         """
         #has to be an int value
 
-        if type(value) != int:
+        if type(size) != int:
             raise TypeError("size must be an integer")
-        if value < 0:
+        if size < 0:
             raise ValueError("size must be >= 0")
-        self.__size = value
+        self.__size = size
 
     def area(self):
         #returns area of square
