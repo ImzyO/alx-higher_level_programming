@@ -51,4 +51,4 @@ class Square:
                     if j == (self.size - 1):
                         print("#")
                         break
-                print("#", end="")
+                    print("#", end="")
