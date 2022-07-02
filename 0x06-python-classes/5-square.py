@@ -10,7 +10,6 @@ class Square:
         """
         intitialization for square, takes in int size
         """
-        self.__check_size__(size)
         self.__size = size
 
     @property
@@ -19,23 +18,26 @@ class Square:
         """
         size getter, returns the private size
         """
-        return (self.__size)
+        return self.__size
 
     @size.setter
     #propertysetter def size(self, value) to set it
-    def size(self, value):
+    def size(self, size):
         """
         size setter, sets the private setter
         """
-        self.__check_size__(value)
-        self.__size = value
+        if type(size) != int:
+            raise TypeError("size must be an integer")
+        if size < 0:
+            raise ValueError("size must be >= 0")
+        self.__size = size
 
     #public instance method
     def area(self):
         """
         returns area of the square
         """
-        return (self.__size ** 2)
+        return (self.size ** 2)
 
     #public instance method, could do it with join as well
     def my_print(self):
@@ -51,14 +53,3 @@ class Square:
                         print("#")
                         break
                     print("#", end="")
-
-    def __check_size__(self, size):
-        """
-        size error chechking
-        """
-        #size must be an integer, otherwise raise TypeError exception
-        if type(size) != int:
-            raise TypeError("size must be an integer")
-            #if size is less than 0, raise valueerror
-        if size < 0:
-            raise ValueError("size must be >= 0")
