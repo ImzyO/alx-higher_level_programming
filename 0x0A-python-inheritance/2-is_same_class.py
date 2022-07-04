@@ -6,4 +6,4 @@ class a_class:
     the specified class: else false
     """
     def is_same_class(obj, a_class):
-        return type(obj).__name__
+        return type(obj) is a_class
