@@ -16,6 +16,8 @@ iv.  A documentation is not a simple word, it’s a real sentence explaining wha
      Documentation is Mandatory!
      
 
+
+
 File 0: an empty class Square that defines a square:
         not allowed to import any module
 
