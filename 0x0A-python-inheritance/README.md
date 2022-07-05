@@ -17,9 +17,12 @@ Python Test Cases:
                         A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will                         be verified)
 
 Documentation
+
                        Do not use the works import or from inside your comments, the checker will think you try to import some modules
                        
-NB: /No modules have been imported in all files/                       
+NB: 
+
+     /No modules have been imported in all files/                       
 
 
 
