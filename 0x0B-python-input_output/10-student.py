@@ -13,11 +13,11 @@ class Student:
         retrieves a dictionary representation of a
         Student instance (same as 8-class_to_json.py)
         """
-        new = {}
-        if (att is not None):
-            for i in att:
+        new_dict = {}
+        if (attrs is not None):
+            for i in attrs:
                 if i in self.__dict__:
-                    new[i] = self.__dict__[i]
-            return new
+                    new_dict[i] = self.__dict__[i]
+            return new_dict
         else:
             return self.__dict__
