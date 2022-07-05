@@ -22,4 +22,3 @@
 0x0A. Python - Inheritance
 
 0x0B. Python - Input/Output
->>>>>>> e3e5457826f377df8e17a4f932513f456943266d
