@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-more classes
-=======
+                                                                    Python
 0x00. Python - Hello, World
 
 0x01. Python - if/else, loops, functions
@@ -24,4 +22,3 @@ more classes
 0x0A. Python - Inheritance
 
 0x0B. Python - Input/Output
->>>>>>> e3e5457826f377df8e17a4f932513f456943266d
