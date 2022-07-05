@@ -31,7 +31,8 @@ File 4: a function that prints a square with the character #.
 File 5: a function that prints a text with 2 new lines after each of these characters: ., ? and :
         There should be no space at the beginning or at the end of each printed line
         
-File 6: 
+File 6:  
+  
         Since the beginning you have been creating “Interactive tests”. For this exercise, you will add Unittests.
         In this file, you will write unittests for the function def max_integer(list=[]):.
         Your test file should be inside a folder tests
