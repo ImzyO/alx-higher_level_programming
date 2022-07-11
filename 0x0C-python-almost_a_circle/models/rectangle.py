@@ -87,3 +87,24 @@ class Rectangle(Base):
         """method returns formatted display information"""
         return '[{}] ({}) {}/{} - {}/{}'.\
                 format(type(self).__name__, self.id, self.x, self.y, self.width,self.height)
+
+    def update(self, *args, **kwargs):
+        """updates methods, values"""
+        if len(kwargs) != 0:
+            for k, v in kwargs.items():
+                setattr(self, k, v)
+        elif len(args) != 0:
+            try:
+                self.id = args[0]
+                self.__width = args[1]
+                self.__height = args[2]
+                self.__x = args[3]
+                self.__y = args[4]
+            except IndexError:
+                pass
+        else:
+            print()
+
+    def dictionary(self):
+        """method returns dictionary represantation of this class"""
+        return {"id": self.id, "width": self.__width, "height": self.__height, "x": self.__x, "y": self.__y}
