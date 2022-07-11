@@ -74,3 +74,16 @@ class Rectangle(Base):
     def area(self):
         """public method returns area of rectangle"""
         return self.width * self.height
+
+    def display(self):
+        """public method printgs to stdout the rectangle instance with '#'"""
+        if self.__y != 0:
+            for newline in range(self.__y):
+                print()
+        for row in range(self.__height):
+            print((self.__x * " ") + (self.__width * '#'))
+
+    def __str__(self):
+        """method returns formatted display information"""
+        return '[{}] ({}) {}/{} - {}/{}'.\
+                format(type(self).__name__, self.id, self.x, self.y, self.width,self.height)
