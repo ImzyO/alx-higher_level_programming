@@ -4,6 +4,7 @@ class MyList(list):
     """class with method print_sorted"""
     def print_sorted(self):
         """method that sorts a list"""
-        list.__init__(self)
+        super().__init__(self)
         """initialization"""
-        self.sorted(list)
+        sortit = list.sorted
+        return sortit
