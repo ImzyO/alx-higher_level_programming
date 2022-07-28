@@ -16,7 +16,14 @@ class Base:
         else:
             Base.__nb_objects += 1
             self.id = Base.__nb_objects
-            
+    
+    def to_json_string(list_dictionaries):
+        """returns JSOn string representation of list_dictionaries"""
+        if list_dictionaries is None:
+            return []
+        else:
+            return dumps(list_dictionaries)
+        
     @staticmethod
     def save_to_file(cls, list_objs):
         """writes the JSON string representation of list_objs to a file:"""
