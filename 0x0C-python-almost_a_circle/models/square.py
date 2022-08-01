@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """module for anything squares"""
-from models.rectangle import Rectangle
 """imports class Rectangle from module rectangle.py in the file models"""
+from models.rectangle import Rectangle
 
 class Square(Rectangle):
     """a square class inherits from class rectangle"""
