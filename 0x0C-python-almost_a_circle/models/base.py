@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """module for base.py"""
-import json
 """import module json, imports loads and dumps"""
+import json
 
 class Base:
     """a class named Base"""
