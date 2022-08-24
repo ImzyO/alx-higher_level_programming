@@ -1,18 +1,18 @@
                                                                     0x06. Python - Classes and Objects
                                                                     
-                                                                   https://python.swaroopch.com/oop.html
-                                                                   https://python-course.eu/oop/object-oriented-programming.php
-                                                                   https://python-course.eu/oop/properties-vs-getters-and-setters.php
-                                                                   https://www.youtube.com/watch?v=1AGyBuVCTeE
-                                                                   https://www.youtube.com/watch?v=apACNr7DC_s
-                                                                   https://www.youtube.com/watch?v=-DP1i2ZU9gk
+                                 Object Oriented Programming:                                   https://python.swaroopch.com/oop.html
+                                 Object Oriented Programming:                                   https://python-course.eu/oop/object-oriented-programming.php
+                                 Properties vs. Getters and Setters:                            https://python-course.eu/oop/properties-vs-getters-and-setters.php
+                                 Object Oriented Programming:                                   https://www.youtube.com/watch?v=1AGyBuVCTeE
+                                 Python Classes and Objects:                                    https://www.youtube.com/watch?v=apACNr7DC_s
+                                 Object Oriented Programming:                                   https://www.youtube.com/watch?v=-DP1i2ZU9gk
                                                                   
                                                            
 Requirements: 
-i.   All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
-ii.  All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
-iii. All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c              'print(__import__("my_module").MyClass.my_function.__doc__)')                                              
-iv.  A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
+1. All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
+2. All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
+3. All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c              'print(__import__("my_module").MyClass.my_function.__doc__)')                                              
+4. A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
      Documentation is Mandatory!
      
 
@@ -39,5 +39,5 @@ File 5: a class Square that defines a square by: (based on 4-square.py)
 File 6: a class Square that defines a square by: (based on 5-square.py)
         not allowed to import any module
         
-File 7: a class Node that defines a node of a singly linked list
-        not allowed to import any module
+File 100: a class Node that defines a node of a singly linked list
+          not allowed to import any module
