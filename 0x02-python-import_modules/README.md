@@ -1,6 +1,8 @@
-                                                            Imports & modules 
-                                                            
-                                                  NB: For all files, code should not be executed when imported
+                                                              0x02-python-import_modules
+                                                    
+                                                    Modules:                         https://docs.python.org/3/tutorial/modules.html
+                                                    Command line arguments:          https://docs.python.org/3/tutorial/stdlib.html#command-line-arguments
+                                 Pycodestyle – Style Guide for Python Code:          https://pypi.org/project/pycodestyle/
                                                                                                                   
 File 0: A program that imports the function def add(a, b): from the file add_0.py and prints the result of the addition 1 + 2 = 3
         not allowed to use * for importing or __import__ /  use the word add_0 once in your code
