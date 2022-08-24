@@ -1,11 +1,12 @@
                                                             0x0B. Python - Input/Output
                                                             
-                                                            https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
-                                                            https://docs.python.org/3/tutorial/errors.html#predefined-clean-up-actions
-                                                            https://histo.ucsf.edu/BMS270/diveintopython3-r802.pdf
-                                                            https://docs.python.org/3/library/json.html
-                                                            https://www.youtube.com/watch?v=EukxMIsNeqU
-                                                            https://automatetheboringstuff.com/
+                                            7.2. Reading & writing files:            https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
+                                            8.7. Predefined clean up actions:        https://docs.python.org/3/tutorial/errors.html#predefined-clean-up-actions
+                                            Whats new in Python:                     https://histo.ucsf.edu/BMS270/diveintopython3-r802.pdf
+                                                  JSON encoder and decoder:          https://docs.python.org/3/library/json.html
+                                                  Reading / Writing Files:           https://www.youtube.com/watch?v=EukxMIsNeqU
+                                  Automate the Boring Stuff with Python:             https://automatetheboringstuff.com/
+                                                            
                                                             
  file 0: a function that reads a text file (UTF8) and prints it to stdout/ no need to manage file permissions or file doesn't exist exceptions
  
