@@ -1,21 +1,10 @@
                                                                   0x0A. Python - Inheritance
                                                                   
-                                                                  https://docs.python.org/3/tutorial/classes.html#inheritance
-                                                                  https://docs.python.org/3/tutorial/classes.html#multiple-inheritance
-                                                                  https://www.packt.com/inheritance-python/
-                                                                  https://www.youtube.com/watch?v=d8kCdLCi6Lk
+                                                    inheritance:    https://docs.python.org/3/tutorial/classes.html#inheritance
+                                           multiple inheritance:    https://docs.python.org/3/tutorial/classes.html#multiple-inheritance
+                                          inheritance in python:    https://www.packt.com/inheritance-python/
+                                      inheritance magic methods:    https://www.youtube.com/watch?v=d8kCdLCi6Lk
                                                                   
-REQUIREMENTS: 
-Python Test Cases: 
-
-                        All your test files should be inside a folder tests
-                        All your test files should be text files (extension: .txt)
-                        All your tests should be executed by using this command: python3 -m doctest ./tests/*
-                        All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
-                        All your classes should have a documentation (python3 -c 'print(__import__("my_module").MyClass.__doc__)')
-                        All your functions (inside and outside a class) should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)'                           and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)')
-                        A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will                         be verified)
-
 Documentation
 
                        Do not use the works import or from inside your comments, the checker will think you try to import some modules
