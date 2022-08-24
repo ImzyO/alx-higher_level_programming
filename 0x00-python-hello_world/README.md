@@ -1,4 +1,15 @@
                                                                 0X00-python-hello_world
+                                                                
+                                  The Python Tutorial:                https://docs.python.org/3.4/tutorial/index.html
+                                  Derek Banas’ Learn to program:      https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt
+                                  The Python Guru:                    https://thepythonguru.com/
+                                  New string formatting:              https://pyformat.info/
+                                  Garbage collector:                  https://thp.io/2012/python-gc/python_gc_final_2012-01-22.pdf
+                                  Python Interpreter:                 http://www.aosabook.org/en/500L/a-python-interpreter-written-in-python.html
+                                  Python bytecode:                    https://docs.python.org/3.4/library/dis.html
+                                  An Informal Introduction to Python:         https://docs.python.org/3/tutorial/introduction.html
+                                  How To Use String Formatters in Python 3:   https://realpython.com/python-f-strings/
+                                  Pycodestyle – Style Guide for Python Code:  https://pypi.org/project/pycodestyle/
 
 File 0: Shell script that runs a Python script
         The Python file name will be saved in the environment variable $PYFILE
