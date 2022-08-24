@@ -1,9 +1,9 @@
                                                               0x05. Python - Exceptions
                                                               
-                                                         https://docs.python.org/3/tutorial/errors.html
-                                                         https://www.youtube.com/watch?v=7vbgD-3s-w4
+                                          Errors and Exceptions:               https://docs.python.org/3/tutorial/errors.html
+                                   Static & Exception Handling:                https://www.youtube.com/watch?v=7vbgD-3s-w4
                                                               
-                                                    files are executables/ code uses pycodestyle (version 2.8.*)
+NB: files are executables/ code uses pycodestyle (version 2.8.*)
                                                     
 File 1: a function that prints an integer with "{:d}".format().
         not allowed to use type/ not allowed to import any module/ use format/ uses try: and except:
