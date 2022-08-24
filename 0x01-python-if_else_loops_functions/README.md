@@ -1,5 +1,13 @@
                                                                 0x01. Python - if/else, loops, functions
-
+                                                                
+                 More Control Flow Tools:                           https://docs.python.org/3/tutorial/controlflow.html
+                 IndentationError:                                  https://www.youtube.com/watch?v=1QXOd2ZQs-Q
+                 How To Use String Formatters in Python 3:          https://www.digitalocean.com/community/tutorials/how-to-use-string-formatters-in-python-3
+                 Learn to Program:                                  https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt
+                 Learn to Program 2: Looping                        https://www.youtube.com/playlist?list=PLGLfVvz_LVvTn3cK5e6LjhgGiSeVlIRwt
+                 Pycodestyle – Style Guide for Python Code          https://pypi.org/project/pycodestyle/
+                                                              
+                                                              
 File 0: A programm that assigns a random signed number to the variable number each time it is executed completes the source code in order to print whether the number           stored in the variable number is positive or negative.
         
 File 1: A programm assign a random signed number to the variable number each time it is executed. Complete the source code in order to print the last digit of the             number stored in the variable number
