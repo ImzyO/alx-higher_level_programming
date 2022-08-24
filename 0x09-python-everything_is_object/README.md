@@ -1,13 +1,15 @@
                                                       0x09. Python - Everything is object
                                                       
-                                                      http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#objects-and-values
-                                                      http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#aliasing
-                                                      http://composingprograms.com/pages/24-mutable-data.html#sequence-objects
-                                                      http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#cloning-lists
-                                                      http://radar.oreilly.com/2014/10/python-tuples-immutable-but-potentially-changing.html
+                               objects and values:     http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#objects-and-values
+                                         aliasing:     http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#aliasing
+                       immutable vs mutable types:     http://composingprograms.com/pages/24-mutable-data.html#sequence-objects
+                                         mutation:     http://www.openbookproject.net/thinkcs/python/english2e/ch09.html#cloning-lists
+                                    cloning lists:     http://radar.oreilly.com/2014/10/python-tuples-immutable-but-potentially-changing.html
                                                       
  Reequirements: 
- (a) .txt Answer Files - Only one line/ No Shebang/ All your files should end with a new line
+               .txt Answer Files - Only one line/ No Shebang/ All your files should end with a new line
+               The first line of all your files should be exactly #!/usr/bin/python3
+               All your files must be executable
  
  File 0: What function would you use to print the type of an object?
  
