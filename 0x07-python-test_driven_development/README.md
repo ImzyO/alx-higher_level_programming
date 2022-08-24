@@ -1,23 +1,23 @@
                                                              0x07. Python - Test-driven development
                                                              
-                                                             https://docs.python.org/3.4/library/doctest.html
-                                                             https://pymotw.com/3/doctest/
-                                                             https://www.youtube.com/watch?v=1Lfv5tUGsn8
+                                  doctest — Test interactive Python examples:                        https://docs.python.org/3.4/library/doctest.html
+                             doctest – Testing through documentation:                                https://pymotw.com/3/doctest/
+                            Unit Tests in Python:                                                    https://www.youtube.com/watch?v=1Lfv5tUGsn8
                                                              
 REQUIREMENTS:
 (a) Python Test cases
-You are not allowed to import any modules in files 0 to 6
-All your test files should be inside a folder tests
-All your test files should be text files (extension: .txt)
-All your tests should be executed by using this command: python3 -m doctest ./tests/*
-All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
-All your functions should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)')
-A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
-We strongly encourage you to work together on test cases, so that you don’t miss any edge case – The Checker is checking for tests!
+1. You are not allowed to import any modules in files 0 to 6
+2. All your test files should be inside a folder tests
+3. All your test files should be text files (extension: .txt)
+4. All your tests should be executed by using this command: python3 -m doctest ./tests/*
+5. All your modules should have a documentation (python3 -c 'print(__import__("my_module").__doc__)')
+6. All your functions should have a documentation (python3 -c 'print(__import__("my_module").my_function.__doc__)')
+7. A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
+8. We strongly encourage you to work together on test cases, so that you don’t miss any edge case – The Checker is checking for tests!
 
 (b) Python Scripts
-Your code should use the pycodestyle (version 2.8.*)
-The first line of all your files should be exactly #!/usr/bin/python3
+1. Your code should use the pycodestyle (version 2.8.*)
+2. The first line of all your files should be exactly #!/usr/bin/python3
 
 
 File 0: a function that adds 2 integers.    
