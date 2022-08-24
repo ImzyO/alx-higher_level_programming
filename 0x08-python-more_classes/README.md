@@ -1,10 +1,14 @@
                                                                       0x08. Python - More Classes and Objects
                                                                       
-                                                                      https://python-course.eu/oop/class-instance-attributes.php
-                                                                      https://www.youtube.com/watch?v=rq8cL2XMM5M
-                                                                      https://alx-intranet.hbtn.io/projects/250                                                           
+                                                     Object Oriented Programming:         https://python.swaroopch.com/oop.html
+                                         Object Oriented Programming:                     https://python-course.eu/oop/object-oriented-programming.php
+                                  Class and Instance Attributes:                          https://python-course.eu/oop/class-instance-attributes.php
+                                  classmethods and staticmethods:                         https://www.youtube.com/watch?v=rq8cL2XMM5M
+                                 Properties vs. Getters and Setters:                      https://python-course.eu/oop/properties-vs-getters-and-setters.php
+                                 str vs repr:                                             https://shipit.dev/posts/python-str-vs-repr.html
 
-                                                                      NB: You are not allowed to import any module in all files 
+
+NB: You are not allowed to import any module in all files 
 
 File 0: an empty class Rectangle that defines a rectangle
  
