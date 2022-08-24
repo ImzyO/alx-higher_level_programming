@@ -1,7 +1,8 @@
                                                               Data Structures: Lists, Tuples
 
-                                                      NB: In all files, Not allowed to import any modules
-                                   
+                                                           3.1.3. Lists: https://docs.python.org/3/tutorial/introduction.html#lists
+                                                           Data structures: https://docs.python.org/3/tutorial/datastructures.html
+                                                           lists: https://www.youtube.com/watch?v=A1HUzrvS-Pw
 File 0: A function that prints all integers of a list
         used str.format() / assume that the list only contains integers / one integer per line
 
