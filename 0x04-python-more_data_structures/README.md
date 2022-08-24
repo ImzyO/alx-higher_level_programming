@@ -1,11 +1,11 @@
                                              0x04. Python - More Data Structures: Set, Dictionary
                                              
-                                           https://docs.python.org/3/tutorial/datastructures.html
-                                           https://python-course.eu/advanced-python/lambda-filter-reduce-map.php
-                                           https://www.youtube.com/watch?v=1GAC6KQUPeg
+                              Data structures:             https://docs.python.org/3/tutorial/datastructures.html
+              Lambda, filter, reduce and map:              https://python-course.eu/advanced-python/lambda-filter-reduce-map.php
+              Lambda Map Filter Reduce:                    https://www.youtube.com/watch?v=1GAC6KQUPeg
                                            
-                                                    Lambda, filter, reduce, map
-                                                NB: In all files, Not allowed to import any module
+                                                   
+ NB: In all files, Not allowed to import any module
                                                 
  File 0: A function that computes the square value of all integers of a matrix
          Initial matrix should not be modified  
