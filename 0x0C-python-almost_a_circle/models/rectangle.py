@@ -15,61 +15,51 @@ class Rectangle(Base):
 
     @property
     def width(self):
-        self.__width
+        return self.__width
 
     @width.setter
     def width(self, width):
-        try:
-            type(width) == int
-            width > 0
-        except TypeError:
-            raise TypeError("width value must be an integer")
-        else ValueError:
-            raise ValueError("width value must be > 0")
+        if type(width) != int:
+            raise TypeError("width must be an integer")
+        if width <= 0:
+            raise ValueError("width must be > 0")
         self.__width = width
-
+        
     @property
     def height(self):
-        self.__height
+        return self.__height
 
-    @height.setter(self, height):
-        try:
-            type(height) == int
-            height > 0
-
-        except TypeError:
+    @height.setter
+    def height(self, height):
+        if type(height) != int:
             raise TypeError("height must be an integer")
-        else ValueError:
+        if height <= 0:
             raise ValueError("height must be > 0")
         self.__height = height
 
     @property
     def x(self):
-        self.__x
+        return self.__x
 
     @x.setter
     def x(self, x):
-        try:
-            type(x) == int
-            x > 0
-        except TypeError:
+        if type(vx) != int:
             raise TypeError("x must be an integer")
-        else ValueError:
+        if x < 0:
             raise ValueError("x must be >= 0")
+        self.__x = x
 
     @property
     def y(self):
-        self.__y
+        return self.__y
 
     @y.setter
     def y(self, y):
-        try:
-            type(y) == int
-            y > 0
-        except TypeError:
+        if type(y) != int:
             raise TypeError("y must be an integer")
-        else ValueError:
+        if y < 0:
             raise ValueError("y must be >= 0")
+        self.__y = y
 
     def area(self):
         """public method returns area of rectangle"""
@@ -77,11 +67,15 @@ class Rectangle(Base):
 
     def display(self):
         """public method printgs to stdout the rectangle instance with '#'"""
-        if self.__y != 0:
-            for newline in range(self.__y):
-                print()
-        for row in range(self.__height):
-            print((self.__x * " ") + (self.__width * '#'))
+        if self.width == 0 or self.height == 0:
+            print("")
+            return
+
+        [print("") for y in range(self.y)]
+        for h in range(self.height):
+            [print(" ", end="") for x in range(self.x)]
+            [print("#", end="") for w in range(self.width)]
+            print("")
 
     def __str__(self):
         """method returns formatted display information"""
@@ -90,20 +84,39 @@ class Rectangle(Base):
 
     def update(self, *args, **kwargs):
         """updates methods, values"""
-        if len(kwargs) != 0:
-            for k, v in kwargs.items():
-                setattr(self, k, v)
-        elif len(args) != 0:
-            try:
-                self.id = args[0]
-                self.__width = args[1]
-                self.__height = args[2]
-                self.__x = args[3]
-                self.__y = args[4]
-            except IndexError:
-                pass
-        else:
-            print()
+        if args and len(args) != 0:
+            i = 0
+            for arg in args:
+                if i == 0:
+                    if arg is None:
+                        self.__init__(self.width, self.height, self.x, self.y)
+                    else:
+                        self.id = arg
+                elif i == 1:
+                    self.width = arg
+                elif i == 2:
+                    self.height = arg
+                elif i == 3:
+                    self.x = arg
+                elif i == 4:
+                    self.y = arg
+                i += 1
+
+        elif kwargs and len(kwargs) != 0:
+            for j, k in kwargs.items():
+                if j == "id":
+                    if k is None:
+                        self.__init__(self.width, self.height, self.x, self.y)
+                    else:
+                        self.id = k
+                elif j == "width":
+                    self.width = k
+                elif j == "height":
+                    self.height = k
+                elif j == "x":
+                    self.x = k
+                elif j == "y":
+                    self.y = k
 
     def dictionary(self):
         """method returns dictionary represantation of this class"""
