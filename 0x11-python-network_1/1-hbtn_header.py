@@ -8,6 +8,4 @@ from sys import argv
 if __name__ == '__main__':
     req = request.Request(argv[1])
     with request.urlopen(req) as response:
-    head = response.headers.get('X-Request-Id')
-        print(head)
-# print(dict(response.headers).get('X-Request-Id'))
+        print(dict(response.headers).get('X-Request-Id'))
