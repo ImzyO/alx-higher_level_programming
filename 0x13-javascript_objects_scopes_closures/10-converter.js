@@ -4,4 +4,5 @@ exports.converter = function (base) {
 	function converter (num) {
 		return num.toString(base);
 	};
+	return converter
 };
