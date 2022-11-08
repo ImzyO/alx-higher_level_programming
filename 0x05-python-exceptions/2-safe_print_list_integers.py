@@ -1,9 +1,18 @@
 def safe_print_list_integers(my_list=[], x=0):
-    k = 100
-    for i in range(0, k):
+    """first x elements"""
+    i = 0
+    count = 0
+    while i < x:
         try:
-            print("{:d}".format(my_list[0:3]), end="")
-            x += 1
-        except ValueError:
+            print("{:d}".format(my_list[i]), end="")
+        except (ValueError, TypeError):
             pass
-        return x
+        else:
+            count += 1
+        finally:
+            i += 1
+
+    print()
+    return count
+Footer
+© 2022 GitHub, Inc.
