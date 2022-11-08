@@ -9,4 +9,4 @@ if __name__ == '__main__':
     row = typed.fetchall()
 
     for rows in row:
-        print(row)
+        print(rows)
